@@ -1,0 +1,46 @@
+# ========================================================
+# Car Workshop Inventory - Git Ignore
+# ========================================================
+
+# Compiled class files & build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven portable tool
+apache-maven-*/
+*.zip
+*.tar.gz
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Visual Studio Code & Editors
+.vscode/
+*.swp
+*.bak
+*~
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Logs & Temporary Files
+*.log
+tmp/
+temp/
+test_reports_output/
